@@ -1,5 +1,6 @@
 $primary: #9bddff;
 $red: #dc3545;
+$light: #f3f0e6;
 $dark-transparent: #000000c0;
 
 //* NAVBAR *//
@@ -70,7 +71,37 @@ $dark-transparent: #000000c0;
 
 	.carousel-icon {
 		font-size: 2rem;
-		color: #ffffff;
+		color: $light;
+	}
+}
+
+//* History Section *//
+
+#history {
+	height: 100%;
+	background: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(/css/img/hero2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top;
+	width: 100%;
+	background-attachment: fixed;
+
+	.history-img {
+		background: url("/css/img/history.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+		width: 100%;
+		height: 100%;
+	}
+
+	.innovation-img {
+		background: url("/css/img/innovation.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+		width: 100%;
+		height: 100%;
 	}
 }
 
@@ -104,6 +135,16 @@ $dark-transparent: #000000c0;
 
 		h1 {
 			font-size: 2rem;
+		}
+	}
+
+	#history {
+		.history-img {
+			display: none;
+		}
+
+		.innovation-img {
+			display: none;
 		}
 	}
 }
