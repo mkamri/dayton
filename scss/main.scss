@@ -1,1 +1,104 @@
+$primary: #9bddff;
+$red: #dc3545;
+$dark-transparent: #000000c0;
 
+//* NAVBAR *//
+.navbar {
+	.navbar-brand {
+		font-size: 1rem;
+		line-height: 1rem;
+	}
+
+	.logo-icon {
+		font-size: 2rem;
+	}
+
+	li {
+		a {
+			text-decoration: none;
+			padding-bottom: .3rem;
+			border-bottom: 4px solid #00000000;
+			transition: .3s ease-in;
+			&:hover {
+				text-decoration: none;
+				border-bottom: 4px solid $primary;
+			}
+		}
+	}
+}
+
+//* CAROUSEL *//
+
+#hero {
+	height: 100vh;
+
+	#heroCarousel {
+		height: 100%;
+
+		.carousel-inner {
+			height: 100%;
+		}
+
+		.carousel-item {
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-position: center;
+			width: 100%;
+			height: 100%;
+		}
+	}
+
+	.hero-img {
+		background: url("img/hero.jpg");
+	}
+	.airforce-img {
+		background-image: url("img/airforce.jpg");
+	}
+	.food-img {
+		background-image: url("img/food.jpg");
+	}
+	.foodtruck-img {
+		background-image: url("img/foodtruck.jpg");
+	}
+	.beer-img {
+		background-image: url("img/beer.jpg");
+	}
+
+	.dark-overlay {
+		background: $dark-transparent;
+	}
+
+	.carousel-icon {
+		font-size: 2rem;
+		color: #ffffff;
+	}
+}
+
+//* XS-LG SCREENS *//
+
+@media screen and (max-width: 990px) {
+	.navbar {
+		ul {
+			font-size: .8rem;
+		}
+	}
+}
+
+//* XS-MD SCREENS *//
+@media screen and (max-width: 768px) {
+	.navbar {
+		ul {
+			text-align: right;
+		}
+		a {
+			font-size: 1rem;
+		}
+	}
+
+	.carousel-item {
+		h1,
+		.btn {
+			margin: 0 2rem;
+		}
+	}
+}
