@@ -97,8 +97,13 @@ $dark-transparent: #000000c0;
 
 	.carousel-item {
 		h1,
-		.btn {
+		.btn,
+		.hero-p {
 			margin: 0 2rem;
+		}
+
+		h1 {
+			font-size: 2rem;
 		}
 	}
 }
