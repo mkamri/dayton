@@ -1,18 +1,18 @@
-.navbar .navbar-brand {
-  font-size: 1rem;
-  line-height: 1rem; }
-
-.navbar .logo-icon {
-  font-size: 2rem; }
-
-.navbar li a {
-  text-decoration: none;
-  padding-bottom: .3rem;
-  border-bottom: 4px solid #00000000;
-  transition: .3s ease-in; }
-  .navbar li a:hover {
+.navbar {
+  background: #000000c0; }
+  .navbar .navbar-brand {
+    font-size: 1rem;
+    line-height: 1rem; }
+  .navbar .logo-icon {
+    font-size: 2rem; }
+  .navbar li a {
     text-decoration: none;
-    border-bottom: 4px solid #9bddff; }
+    padding-bottom: .3rem;
+    border-bottom: 4px solid #00000000;
+    transition: .3s ease-in; }
+    .navbar li a:hover {
+      text-decoration: none;
+      border-bottom: 4px solid #9bddff; }
 
 #hero {
   height: 100vh; }
