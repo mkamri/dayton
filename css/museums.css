@@ -1,5 +1,22 @@
 #museums {
-  height: 100vh; }
+  height: 100vh;
+  overflow: hidden; }
+  #museums #js-background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    background-image: linear-gradient(to left, transparent, transparent 50%, black 50%, black);
+    background-position: 100% 0;
+    background-size: 200% 100%;
+    -webkit-transition: background-position .5s ease-in;
+    -moz-transition: background-position .5s ease-in;
+    transition: background-position .5s ease-in; }
+  #museums .modal-closer {
+    margin: 4rem 1.5rem;
+    font-size: 2rem; }
+  #museums .description {
+    z-index: 999; }
   #museums .dai {
     position: relative;
     background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(/css/img/dai.jpg);
