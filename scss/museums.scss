@@ -1,6 +1,9 @@
+* {
+	overflow: hidden;
+}
+
 #museums {
 	height: 100vh;
-	overflow: hidden;
 
 	#js-background {
 		position: absolute;
@@ -13,6 +16,13 @@
 		-webkit-transition: background-position .5s ease-in;
 		-moz-transition: background-position .5s ease-in;
 		transition: background-position .5s ease-in;
+	}
+
+	#modal-content {
+		opacity: 0;
+		-webkit-transition: opacity .4s ease-in;
+		-moz-transition: opacity .4s ease-in;
+		transition: opacity .4s ease-in;
 	}
 
 	.modal-closer-column {
