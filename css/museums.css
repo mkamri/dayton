@@ -2,7 +2,8 @@
   overflow: hidden; }
 
 #museums {
-  height: 100vh; }
+  height: 100vh;
+  background: black; }
   #museums #js-background {
     position: absolute;
     width: 100%;
