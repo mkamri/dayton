@@ -8,6 +8,7 @@ const modalContent = document.getElementById('modal-content');
 const modalHeading = document.getElementById('modal-heading');
 const modalParagraph = document.getElementById('modal-paragraph');
 const museumSiteLink = document.getElementById('museum-site-link');
+const sidebar = document.getElementById('sidebar');
 
 // Fade to black
 const fadeToBlack = function() {
@@ -16,7 +17,7 @@ const fadeToBlack = function() {
 	setTimeout(() => (modalContent.style.opacity = '1'), 600);
 };
 
-// Show different text based on what section was clicked
+// Show different text and sidebar background based on what section was clicked
 document.addEventListener('click', function(e) {
 	if (e.target == daiSection) {
 		modalHeading.textContent = 'Dayton Art Institute';
@@ -39,6 +40,7 @@ boonshoftSection.addEventListener('click', fadeToBlack);
 
 // Close Modal
 const closeModal = function() {
+	sidebar.style.backgroundImage = 'none';
 	modalContent.style.opacity = '0';
 	setTimeout(() => (sectionBackground.style.backgroundPosition = '100% 0'), 400);
 	setTimeout(() => (sectionBackground.style.zIndex = 0), 800);
