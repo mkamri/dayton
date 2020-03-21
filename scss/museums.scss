@@ -164,6 +164,12 @@ $navy: #030020;
 				}
 			}
 		}
+
+		.dai,
+		.dai::before,
+		.dai:hover::before {
+			background-position: center;
+		}
 	}
 }
 

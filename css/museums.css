@@ -107,7 +107,11 @@
     padding-left: 0; }
     #museums #js-background .museum-info-section p {
       text-align: justify;
-      padding-right: 3rem; } }
+      padding-right: 3rem; }
+  #museums .dai,
+  #museums .dai::before,
+  #museums .dai:hover::before {
+    background-position: center; } }
 
 @media screen and (max-width: 575px) {
   #museums #js-background .museum-info-section {
