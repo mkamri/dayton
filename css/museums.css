@@ -15,15 +15,18 @@
     -webkit-transition: background-position .5s ease-in;
     -moz-transition: background-position .5s ease-in;
     transition: background-position .5s ease-in; }
-  #museums #modal-content {
-    opacity: 0;
-    -webkit-transition: opacity .3s ease-in;
-    -moz-transition: opacity .3s ease-in;
-    transition: opacity .3s ease-in; }
-  #museums .modal-closer-column {
-    margin-top: 4rem; }
-  #museums .modal-closer {
-    font-size: 2rem; }
+    #museums #js-background #modal-content {
+      opacity: 0;
+      -webkit-transition: opacity .3s ease-in;
+      -moz-transition: opacity .3s ease-in;
+      transition: opacity .3s ease-in; }
+    #museums #js-background .modal-closer-column {
+      margin-top: 4rem; }
+      #museums #js-background .modal-closer-column .modal-closer {
+        font-size: 2rem; }
+    #museums #js-background .museum-info-section {
+      display: flex;
+      padding-left: 3rem; }
   #museums .description {
     z-index: 999;
     background: #000000; }
@@ -85,3 +88,30 @@
     background-size: cover;
     width: 100%;
     height: 100%; }
+
+@media screen and (max-width: 767px) {
+  #museums .description {
+    height: auto;
+    padding-top: 4rem;
+    text-align: center; }
+  #museums .museum-block {
+    height: 30%; }
+  #museums #js-background .xs-modal-closer {
+    display: block;
+    font-size: 1.5rem;
+    text-align: right;
+    margin-top: 9rem; }
+  #museums #js-background .museum-info-section {
+    display: block;
+    margin-top: 3rem;
+    padding-left: 0; }
+    #museums #js-background .museum-info-section p {
+      text-align: justify;
+      padding-right: 3rem; } }
+
+@media screen and (max-width: 575px) {
+  #museums #js-background .museum-info-section {
+    padding-right: 2rem;
+    padding-left: 2rem; }
+    #museums #js-background .museum-info-section p {
+      padding: 0; } }
