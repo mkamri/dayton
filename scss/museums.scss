@@ -11,12 +11,15 @@
 		background-position: 100% 0;
 		background-size: 200% 100%;
 		-webkit-transition: background-position .5s ease-in;
-    -moz-transition: background-position .5s ease-in;
-    transition: background-position .5s ease-in;
+		-moz-transition: background-position .5s ease-in;
+		transition: background-position .5s ease-in;
+	}
+
+	.modal-closer-column {
+		margin-top: 4rem;
 	}
 
 	.modal-closer {
-		margin: 4rem 1.5rem;
 		font-size: 2rem;
 	}
 

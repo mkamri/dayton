@@ -12,8 +12,9 @@
     -webkit-transition: background-position .5s ease-in;
     -moz-transition: background-position .5s ease-in;
     transition: background-position .5s ease-in; }
+  #museums .modal-closer-column {
+    margin-top: 4rem; }
   #museums .modal-closer {
-    margin: 4rem 1.5rem;
     font-size: 2rem; }
   #museums .description {
     z-index: 999; }
