@@ -1,9 +1,7 @@
-* {
-  overflow: hidden; }
-
 #museums {
+  overflow: hidden;
   height: 100vh;
-  background: black; }
+  background: #030303; }
   #museums #js-background {
     position: absolute;
     width: 100%;
@@ -29,7 +27,7 @@
       padding-left: 3rem; }
   #museums .description {
     z-index: 999;
-    background: #000000; }
+    background: #030303; }
   #museums .dai {
     position: relative;
     background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(/css/img/dai.jpg);

@@ -1,12 +1,14 @@
+$primary: #9bddff;
+$red: #dc3545;
+$light: #f3f0e6;
+$dark-transparent: #000000c0;
+$black: #030303;
 $navy: #030020;
 
-* {
-	overflow: hidden;
-}
-
 #museums {
+	overflow: hidden;
 	height: 100vh;
-	background: black;
+	background: $black;
 
 	//** MODAL **//
 
@@ -46,7 +48,7 @@ $navy: #030020;
 	//** MUSEUMS SECTION DESCRIPTION **//
 	.description {
 		z-index: 999;
-		background: #000000;
+		background: $black;
 	}
 
 	//** MUSEUM PHOTO PANELS **//

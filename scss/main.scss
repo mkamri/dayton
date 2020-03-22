@@ -2,6 +2,7 @@ $primary: #9bddff;
 $red: #dc3545;
 $light: #f3f0e6;
 $dark-transparent: #000000c0;
+$black: #030303;
 
 //* GENERAL *//
 * {
@@ -34,6 +35,11 @@ $dark-transparent: #000000c0;
 			}
 		}
 	}
+}
+
+//* FOOTER *//
+footer {
+	background: $black;
 }
 
 //* XS-LG SCREENS *//
