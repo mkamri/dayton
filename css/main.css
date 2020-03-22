@@ -28,14 +28,4 @@
     font-size: 1rem; }
   .social-buttons {
     font-size: 1.5rem;
-    justify-content: center; }
-  .carousel-item h1,
-  .carousel-item .btn,
-  .carousel-item .hero-p {
-    margin: 0 2rem; }
-  .carousel-item h1 {
-    font-size: 2rem; }
-  #history .history-img {
-    display: none; }
-  #history .innovation-img {
-    display: none; } }
+    justify-content: center; } }

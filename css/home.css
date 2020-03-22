@@ -48,3 +48,15 @@
     background-position: center;
     width: 100%;
     height: 100%; }
+
+@media screen and (max-width: 768px) {
+  .carousel-item h1,
+  .carousel-item .btn,
+  .carousel-item .hero-p {
+    margin: 0 2rem; }
+  .carousel-item h1 {
+    font-size: 2rem; }
+  #history .history-img {
+    display: none; }
+  #history .innovation-img {
+    display: none; } }

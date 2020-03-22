@@ -79,3 +79,28 @@ $dark-transparent: #000000c0;
 		height: 100%;
 	}
 }
+
+//* XS-MD SCREENS *//
+@media screen and (max-width: 768px) {
+	.carousel-item {
+		h1,
+		.btn,
+		.hero-p {
+			margin: 0 2rem;
+		}
+
+		h1 {
+			font-size: 2rem;
+		}
+	}
+
+	#history {
+		.history-img {
+			display: none;
+		}
+
+		.innovation-img {
+			display: none;
+		}
+	}
+}
