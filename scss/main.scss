@@ -3,6 +3,13 @@ $red: #dc3545;
 $light: #f3f0e6;
 $dark-transparent: #000000c0;
 
+//* GENERAL *//
+* {
+	a:hover {
+		text-decoration: none;
+	}
+}
+
 //* NAVBAR *//
 .navbar {
 	background: $dark-transparent;
@@ -29,83 +36,6 @@ $dark-transparent: #000000c0;
 	}
 }
 
-//* CAROUSEL *//
-
-#hero {
-	height: 100vh;
-
-	#heroCarousel {
-		height: 100%;
-
-		.carousel-inner {
-			height: 100%;
-		}
-
-		.carousel-item {
-			background-repeat: no-repeat;
-			background-size: cover;
-			background-position: center;
-			width: 100%;
-			height: 100%;
-		}
-	}
-
-	.hero-img {
-		background: url("img/hero.jpg");
-	}
-	.airforce-img {
-		background-image: url("img/airforce.jpg");
-	}
-	.food-img {
-		background-image: url("img/food.jpg");
-	}
-	.foodtruck-img {
-		background-image: url("img/foodtruck.jpg");
-	}
-	.beer-img {
-		background-image: url("img/beer.jpg");
-	}
-
-	.dark-overlay {
-		background: $dark-transparent;
-	}
-
-	.carousel-icon {
-		font-size: 2rem;
-		color: $light;
-	}
-}
-
-//* History Section *//
-
-#history {
-	height: 100%;
-	background: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(/css/img/hero2.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: top;
-	width: 100%;
-	background-attachment: fixed;
-
-	.history-img {
-		background: url("/css/img/history.jpg");
-		background-repeat: no-repeat;
-		background-size: cover;
-		background-position: center;
-		width: 100%;
-		height: 100%;
-	}
-
-	.innovation-img {
-		background: url("/css/img/innovation.jpg");
-		background-repeat: no-repeat;
-		background-size: cover;
-		background-position: center;
-		width: 100%;
-		height: 100%;
-	}
-}
-
 //* XS-LG SCREENS *//
 
 @media screen and (max-width: 990px) {
@@ -125,6 +55,11 @@ $dark-transparent: #000000c0;
 		a {
 			font-size: 1rem;
 		}
+	}
+
+	.social-buttons {
+		font-size: 1.5rem;
+		justify-content: center;
 	}
 
 	.carousel-item {
