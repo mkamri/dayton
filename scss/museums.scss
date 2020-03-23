@@ -139,12 +139,12 @@ $navy: #030020;
 	#museums {
 		.description {
 			height: auto;
-			padding-top: 4rem;
+			padding-top: 3.5rem;
 			text-align: center;
 		}
 
 		.museum-block {
-			height: 28.5%;
+			height: 30%;
 		}
 
 		#js-background {
@@ -178,6 +178,12 @@ $navy: #030020;
 //** UP TO SIZE SM **//
 @media screen and (max-width: 575px) {
 	#museums {
+		height: 100vh;
+
+		.museum-block {
+			height: 27.5%;
+		}
+
 		#js-background {
 			.museum-info-section {
 				padding-right: 2rem;
@@ -185,6 +191,25 @@ $navy: #030020;
 				p {
 					padding: 0;
 				}
+			}
+
+			.xs-modal-closer {
+				margin-top: 6.2rem;
+			}
+
+			.museum-info-section {
+				margin-top: 1rem;
+
+				h1 {
+					font-size: 2rem;
+				}
+			}
+		}
+
+		#sidebar {
+			h1 {
+				font-size: 1rem;
+				height: 1rem;
 			}
 		}
 	}
