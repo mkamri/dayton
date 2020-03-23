@@ -1,6 +1,6 @@
 #events {
   margin-top: 3.7rem;
-  height: 92.4vh; }
+  height: calc(100vh - 60px); }
 
 #app-content {
-  height: 85.4vh; }
+  height: calc(100% - 56px); }
