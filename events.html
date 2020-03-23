@@ -38,82 +38,23 @@
   <!-- EVENT FINDER -->
   <section id="events">
     <div class="container-fluid h-100">
-      <div class="row h-100">
-        <div class="col-md-3 col-lg-4 h-100 d-none d-md-flex bg-danger align-items-center sidebar">
-          <h1>DAYTON<br>EVENT<br>FINDER</h1>
+      <div id="app-header" class="row">
+        <div class="col">
+          <h1 class="text-center">EVENT FINDER</h1>
         </div>
-        <div class="col-md-9 col-lg-8 h-100 bg-light p-0 d-flex flex-column justify-content-between">
-          <!-- EVENT APP -->
-          <div id="event-app">
-            <ul id="event-list" class="list-unstyled">
-              <li class="event-info d-flex align-items-center">
-                <div class="event-img mr-3"></div>
-                <div class="event-info-text pr-5">
-                  <span class="event-date lead text-primary mr-2">Date</span>
-                  <span class="event-location lead text-info">Location</span>
-                  <h2 class="event-title h3">Title Goes Here, even if it is a very long title</h2>
-                  <a href="#" class="event-site-link btn btn-sm btn-danger">Visit Event Site</a>
-                </div>
-              </li>
-              <li class="event-info d-flex align-items-center">
-                <div class="event-img mr-3"></div>
-                <div class="event-info-text pr-5">
-                  <span class="event-date lead text-primary mr-2">Date</span>
-                  <span class="event-location lead text-info">Location</span>
-                  <h2 class="event-title h3">Title Goes Here, even if it is a very long title</h2>
-                  <a href="#" class="event-site-link btn btn-sm btn-danger">Visit Event Site</a>
-                </div>
-              </li>
-              <li class="event-info d-flex align-items-center">
-                <div class="event-img mr-3"></div>
-                <div class="event-info-text pr-5">
-                  <span class="event-date lead text-primary mr-2">Date</span>
-                  <span class="event-location lead text-info">Location</span>
-                  <h2 class="event-title h3">Title Goes Here, even if it is a very long title</h2>
-                  <a href="#" class="event-site-link btn btn-sm btn-danger">Visit Event Site</a>
-                </div>
-              </li>
-              <li class="event-info d-flex align-items-center">
-                <div class="event-img mr-3"></div>
-                <div class="event-info-text pr-5">
-                  <span class="event-date lead text-primary mr-2">Date</span>
-                  <span class="event-location lead text-info">Location</span>
-                  <h2 class="event-title h3">Title Goes Here, even if it is a very long title</h2>
-                  <a href="#" class="event-site-link btn btn-sm btn-danger">Visit Event Site</a>
-                </div>
-              </li>
-              <li class="event-info d-flex align-items-center">
-                <div class="event-img mr-3"></div>
-                <div class="event-info-text pr-5">
-                  <span class="event-date lead text-primary mr-2">Date</span>
-                  <span class="event-location lead text-info">Location</span>
-                  <h2 class="event-title h3">Title Goes Here, even if it is a very long title</h2>
-                  <a href="#" class="event-site-link btn btn-sm btn-danger">Visit Event Site</a>
-                </div>
-              </li>
-            </ul>
-          </div>
-
-          <!-- BOTTOM NAV -->
-          <ul id="event-nav" class="nav nav-fill border-0 bg-dark d-flex align-content-center">
-            <li class="nav-item">
-              <a href="#" class="nav-link text-primary active"><i class="fas fa-book-open"></i></a>
-            </li>
-            <li class="nav-item">
-              <a href="#" class="nav-link text-danger"><i class="fas fa-music"></i></a>
-            </li>
-            <li class="nav-item">
-              <a href="#" class="nav-link text-warning"><i class="fas fa-basketball-ball"></i></a>
-            </li>
-            <li class="nav-item">
-              <a href="#" class="nav-link text-success"><i class="fas fa-globe-americas"></i></a>
-            </li>
-            <li class="nav-item">
-              <a href="#" class="nav-link text-info"><i class="fas fa-theater-masks"></i></a>
-            </li>
-            <li class="nav-item">
-              <a href="#" class="nav-link text-light"><i class="fas fa-palette"></i></a>
-            </li>
+      </div>
+      <div id="app-content" class="row">
+        <div id="app-image" class="col-md-4 h-100 bg-danger d-none d-md-block">
+          <p>This is an image theoretically</p>
+        </div>
+        <div id="app-info" class="col-md-8 h-100 p-0 bg-primary d-flex flex-column justify-content-between">
+          <ul id="app-list">
+            <li>Here is a thing</li>
+            <li>Here is other thing</li>
+          </ul>
+          <ul id="app-nav" class="bg-dark m-0">
+            <li>Nav1</li>
+            <li>Nav2</li>
           </ul>
         </div>
       </div>
