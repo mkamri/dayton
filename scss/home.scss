@@ -108,4 +108,7 @@ $dark-transparent: #000000c0;
 //* XS-SM SCREENS *//
 
 @media screen and (max-width: 575px) {
+	#hero {
+		height: 75vh;
+	}
 }

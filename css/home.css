@@ -60,3 +60,7 @@
     display: none; }
   #history .innovation-img {
     display: none; } }
+
+@media screen and (max-width: 575px) {
+  #hero {
+    height: 75vh; } }
