@@ -1,6 +1,6 @@
 #museums {
   overflow: hidden;
-  height: 108vh;
+  height: 100vh;
   background: #030303; }
   #museums #js-background {
     position: absolute;
@@ -93,7 +93,7 @@
     padding-top: 4rem;
     text-align: center; }
   #museums .museum-block {
-    height: 30%; }
+    height: 28.5%; }
   #museums #js-background .xs-modal-closer {
     display: block;
     font-size: 1.5rem;
