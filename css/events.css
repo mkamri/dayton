@@ -1,24 +1,51 @@
 #events {
   height: 100vh;
   width: auto; }
-  #events .sidebar {
-    z-index: 999; }
-    #events .sidebar h1 {
-      font-size: 4.5rem; }
-  #events #event-app {
-    height: 91%; }
-  #events #event-nav {
-    font-size: 2rem;
-    height: auto; }
+
+.sidebar {
+  z-index: 999; }
+  .sidebar h1 {
+    font-size: 4.5rem; }
+
+#event-app {
+  height: 93%;
+  padding: 5rem 0 0 2rem; }
+  #event-app h2 {
+    font-size: 1.5rem; }
+
+#event-list {
+  overflow: scroll;
+  height: 100%; }
+
+.event-info {
+  margin-bottom: 2rem; }
+
+.event-img {
+  background: url(/css/img/beer.jpg);
+  background-size: cover;
+  background-position: center;
+  backgorund-repeat: no-repeat;
+  height: 10rem;
+  width: 14rem; }
+
+#event-nav {
+  font-size: 2rem;
+  height: 3rem; }
 
 @media screen and (max-width: 990px) {
-  #events .sidebar h1 {
-    font-size: 2.5rem; } }
+  .sidebar h1 {
+    font-size: 2.5rem; }
+  #event-app h2 {
+    font-size: 1.2rem; } }
 
 @media screen and (max-width: 768px) {
-  #events #event-nav {
-    font-size: 1.7rem; } }
+  #event-nav {
+    font-size: 1.7rem; }
+  .event-img {
+    height: 100px; } }
 
 @media screen and (max-width: 425px) {
-  #events #event-nav {
-    font-size: 1rem; } }
+  #event-nav {
+    font-size: 1rem; }
+  .event-img {
+    height: 100px; } }
