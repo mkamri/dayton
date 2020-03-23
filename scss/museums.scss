@@ -178,13 +178,14 @@ $navy: #030020;
 //** UP TO SIZE SM **//
 @media screen and (max-width: 575px) {
 	#museums {
-		height: 100vh;
+		height: 93vh;
 
 		.museum-block {
-			height: 27.5%;
+			height: 26.5%;
 		}
 
 		#js-background {
+			height: 93vh;
 			.museum-info-section {
 				padding-right: 2rem;
 				padding-left: 2rem;

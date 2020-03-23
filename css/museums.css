@@ -113,20 +113,22 @@
 
 @media screen and (max-width: 575px) {
   #museums {
-    height: 100vh; }
+    height: 93vh; }
     #museums .museum-block {
-      height: 27.5%; }
-    #museums #js-background .museum-info-section {
-      padding-right: 2rem;
-      padding-left: 2rem; }
-      #museums #js-background .museum-info-section p {
-        padding: 0; }
-    #museums #js-background .xs-modal-closer {
-      margin-top: 6.2rem; }
-    #museums #js-background .museum-info-section {
-      margin-top: 1rem; }
-      #museums #js-background .museum-info-section h1 {
-        font-size: 2rem; }
+      height: 26.5%; }
+    #museums #js-background {
+      height: 93vh; }
+      #museums #js-background .museum-info-section {
+        padding-right: 2rem;
+        padding-left: 2rem; }
+        #museums #js-background .museum-info-section p {
+          padding: 0; }
+      #museums #js-background .xs-modal-closer {
+        margin-top: 6.2rem; }
+      #museums #js-background .museum-info-section {
+        margin-top: 1rem; }
+        #museums #js-background .museum-info-section h1 {
+          font-size: 2rem; }
     #museums #sidebar h1 {
       font-size: 1rem;
       height: 1rem; } }
