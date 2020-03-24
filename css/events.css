@@ -1,6 +1,17 @@
+body {
+  background: #000000c0; }
+
 #events {
-  margin-top: 3.7rem;
+  margin-top: 60px;
   height: calc(100vh - 60px); }
 
 #app-content {
-  height: calc(100% - 56px); }
+  height: 100%; }
+
+#app-nav {
+  background: #030303;
+  font-size: 1.5rem; }
+
+.event-img {
+  height: 150px;
+  width: auto; }

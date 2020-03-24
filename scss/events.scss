@@ -2,12 +2,31 @@ $primary: #9bddff;
 $red: #dc3545;
 $light: #f3f0e6;
 $dark-transparent: #000000c0;
+$black: #030303;
 
+// Dark background behind top navbar
+body {
+	background: $dark-transparent;
+}
+// Align everything after navbar
 #events {
-	margin-top: 3.7rem;
+	margin-top: 60px;
 	height: calc(100vh - 60px);
 }
 
+// Make the divs stretch to the footer
 #app-content {
-	height: calc(100% - 56px);
+	height: 100%;
+}
+
+// Format the events navbar
+#app-nav {
+	background: $black;
+	font-size: 1.5rem;
+}
+
+// Size the images in the events section
+.event-img {
+	height: 150px;
+	width: auto;
 }
