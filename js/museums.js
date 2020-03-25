@@ -13,6 +13,7 @@ const sidebar = document.getElementById('sidebar');
 
 // Fade to black
 const fadeToBlack = function() {
+	sectionBackground.scrollIntoView({behavior: 'smooth'});
 	sectionBackground.style.zIndex = `998`;
 	sectionBackground.style.backgroundPosition = `0 0`;
 	setTimeout(() => (modalContent.style.opacity = '1'), 600);
