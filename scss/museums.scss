@@ -62,12 +62,13 @@ $navy: #030020;
 
 	.dai {
 		position: relative;
-		background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/css/img/dai.jpg);
+		background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+			url(/css/img/museums/dai/dai.jpg);
 		background-position: top-right;
 		z-index: 1;
 
 		&::before {
-			background-image: url("/css/img/dai.jpg");
+			background-image: url("/css/img/museums/dai/dai.jpg");
 			background-position: top-right;
 		}
 
@@ -80,12 +81,13 @@ $navy: #030020;
 
 	.airforce {
 		position: relative;
-		background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/css/img/airforce.jpg);
+		background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+			url(/css/img/museums/airforce/airforce.jpg);
 		background-position: center;
 		z-index: 1;
 
 		&::before {
-			background-image: url("/css/img/airforce.jpg");
+			background-image: url("/css/img/museums/airforce/airforce.jpg");
 			background-position: center;
 		}
 
@@ -98,12 +100,13 @@ $navy: #030020;
 
 	.boonshoft {
 		position: relative;
-		background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/css/img/boonshoft.jpg);
+		background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+			url(/css/img/museums/boonshoft/boonshoft.jpg);
 		background-position: center;
 		z-index: 1;
 
 		&::before {
-			background-image: url("/css/img/boonshoft.jpg");
+			background-image: url("/css/img/museums/boonshoft/boonshoft.jpg");
 			background-position: center;
 		}
 
