@@ -26,19 +26,22 @@ $dark-transparent: #000000c0;
 	}
 
 	.hero-img {
-		background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/hero.jpg");
+		background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+			url("img/home/downtown/downtown.jpg");
 	}
 	.airforce-img {
-		background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/airforce.jpg");
+		background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+			url("img/home/airforce/airforce.jpg");
 	}
 	.food-img {
-		background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/food.jpg");
+		background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/home/food/food.jpg");
 	}
 	.foodtruck-img {
-		background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/foodtruck.jpg");
+		background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+			url("img/home/foodtruck/foodtruck.jpg");
 	}
 	.beer-img {
-		background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/beer.jpg");
+		background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/home/beer/beer.jpg");
 	}
 
 	.dark-overlay {
@@ -63,7 +66,7 @@ $dark-transparent: #000000c0;
 	background-attachment: fixed;
 
 	.history-img {
-		background: url("/css/img/history.jpg");
+		background: url("/css/img/home/history/history.jpg");
 		background-repeat: no-repeat;
 		background-size: cover;
 		background-position: center;
@@ -72,7 +75,7 @@ $dark-transparent: #000000c0;
 	}
 
 	.innovation-img {
-		background: url("/css/img/innovation.jpg");
+		background: url("/css/img/home/innovation/innovation.jpg");
 		background-repeat: no-repeat;
 		background-size: cover;
 		background-position: center;
