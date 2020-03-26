@@ -39,21 +39,39 @@
   <section id="events">
     <div class="container-fluid h-100">
       <div id="app-content" class="row">
-        <div id="app-image" class="col-md-4 h-100 bg-danger d-none d-md-block">
-          <p>This is an image theoretically</p>
+        <!-- APP IMAGE SECTION -->
+        <div id="app-image-all-events" class="col-md-4 h-100 bg-danger d-none d-md-flex align-items-center">
+          <h1 id="app-h1" class="display-5 text-light">ALL EVENTS</p>
         </div>
+        <div id="app-image-music" class="col-md-4 h-100 bg-danger d-none d-md-flex align-items-center">
+          <h1 id="app-h1" class="display-4 text-light">MUSIC</p>
+        </div>
+        <div id="app-image-sports" class="col-md-4 h-100 bg-danger d-none d-md-flex align-items-center">
+          <h1 id="app-h1" class="display-4 text-light">SPORTS</p>
+        </div>
+        <div id="app-image-theater" class="col-md-4 h-100 bg-danger d-none d-md-flex align-items-center">
+          <h1 id="app-h1" class="display-5 text-light">THEATER</p>
+        </div>
+        <div id="app-image-arts" class="col-md-4 h-100 bg-danger d-none d-md-flex align-items-center">
+          <h1 id="app-h1" class="display-4 text-light">ARTS</p>
+        </div>
+        <div id="app-image-culture" class="col-md-4 h-100 bg-danger d-none d-md-flex align-items-center">
+          <h1 id="app-h1" class="display-4 text-light">CULTURE</p>
+        </div>
+
+        <!-- APP INFO -->
         <div id="app-info" class="col-md-8 h-100 p-0 bg-primary">          
           <ul id="app-nav" class="nav p-1 d-flex justify-content-around">
-            <li class="nav-item"><a href="#" class="text-light"><i class="fas fa-book-open"></i></a></li>
-            <li class="nav-item"><a href="#" class="text-info"><i class="fas fa-guitar"></i></a></li>
-            <li class="nav-item"><a href="#" class="text-warning"><i class="fas fa-basketball-ball"></i></a></li>
-            <li class="nav-item"><a href="#" class="text-danger"><i class="fas fa-theater-masks"></i></a></li>
-            <li class="nav-item"><a href="#" class="text-primary"><i class="fas fa-palette"></i></a></li>
-            <li class="nav-item"><a href="#" class="text-success"><i class="fas fa-globe-americas"></i></a></li>
+            <li class="nav-item"><a href="#" class="text-light"><i id="nav-all-events" class="fas fa-book-open"></i></a></li>
+            <li class="nav-item"><a href="#" class="text-info"><i id="nav-music" class="fas fa-guitar"></i></a></li>
+            <li class="nav-item"><a href="#" class="text-warning"><i id="nav-sports" class="fas fa-basketball-ball"></i></a></li>
+            <li class="nav-item"><a href="#" class="text-danger"><i id="nav-theater" class="fas fa-theater-masks"></i></a></li>
+            <li class="nav-item"><a href="#" class="text-primary"><i id="nav-arts" class="fas fa-palette"></i></a></li>
+            <li class="nav-item"><a href="#" class="text-success"><i id="nav-culture" class="fas fa-globe-americas"></i></a></li>
           </ul>
           <ul id="app-list" class="list-unstyled list-group">
             <li class="list-group-item d-flex align-items-center">
-              <img class="event-img" src="css/img/beer.jpg" alt="">
+              <div class="event-img"></div>
               <div class="ml-3">
                 <span class="text-primary mr-3">03/13/2020</span><span class="text-danger d-inline-block">Wright State Memorial Hall</span>
                 <h2 class="h4">Here is an event that has a title</h2>
@@ -62,7 +80,7 @@
               
             </li>
             <li class="list-group-item d-flex align-items-center">
-              <img class="event-img" src="css/img/beer.jpg" alt="">
+              <div class="event-img"></div>
               <div class="ml-3">
                 <span class="text-primary mr-3">03/13/2020</span><span class="text-danger d-inline-block">Wright State Memorial Hall</span>
                 <h2 class="h4">Here is an event that has a title</h2>
@@ -98,7 +116,7 @@
     </div>
   </footer>
 
-  <script src="js/museums.js"></script>
+  <script src="js/events.js"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
