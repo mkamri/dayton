@@ -20,8 +20,12 @@ body {
 }
 
 // Main Image
+#app-title-background {
+	z-index: 1;
+}
+
 #app-image-all-events {
-	background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+	background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
 		url('/css/img/events/all-events.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -29,35 +33,32 @@ body {
 	width: 100%;
 	height: 100%;
 	left: 0;
+	top: 0;
 	opacity: 1;
 	transition-delay: .1s;
 	transition: opacity .5s linear;
-}
-
-#app-image-all-events {
-	background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
-		url('/css/img/events/all-events.jpg');
-	opacity: 1;
+	position: absolute;
+	z-index: -1;
 }
 
 #app-image-music {
-	background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('/css/img/events/music.jpg');
+	background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/css/img/events/music.jpg');
 }
 
 #app-image-sports {
-	background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('/css/img/events/sports.jpg');
+	background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/css/img/events/sports.jpg');
 }
 
 #app-image-theater {
-	background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('/css/img/events/theater.jpg');
+	background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/css/img/events/theater.jpg');
 }
 
 #app-image-arts {
-	background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('/css/img/events/arts.jpg');
+	background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/css/img/events/arts.jpg');
 }
 
 #app-image-culture {
-	background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('/css/img/events/culture.jpg');
+	background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/css/img/events/culture.jpg');
 }
 
 #app-image-music,
@@ -72,9 +73,11 @@ body {
 	height: 100%;
 	position: absolute;
 	left: 0;
+	top: 0;
 	opacity: 0;
 	transition-delay: .1s;
 	transition: opacity .5s linear;
+	z-index: -1;
 }
 
 // Format the events navbar
