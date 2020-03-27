@@ -55,8 +55,8 @@ nav.addEventListener('click', function(e) {
 
 	function headerAnimation(newTitle) {
 		fadeOut();
-		setTimeout(changeText, 500, newTitle);
-		setTimeout(fadeIn, 500);
+		setTimeout(changeText, 600, newTitle);
+		setTimeout(fadeIn, 600);
 	}
 
 	// Change opacity of new section to '1', and change the h1 content

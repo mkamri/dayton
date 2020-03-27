@@ -22,6 +22,7 @@ body {
 // EVENT TITLE HEADER
 #app-title {
 	transition: opacity .5s linear;
+	font-size: 2.9rem;
 }
 
 // Main Image
@@ -30,7 +31,7 @@ body {
 }
 
 #app-image-all-events {
-	background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+	background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
 		url('/css/img/events/all-events.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -47,23 +48,23 @@ body {
 }
 
 #app-image-music {
-	background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/css/img/events/music.jpg');
+	background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/css/img/events/music.jpg');
 }
 
 #app-image-sports {
-	background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/css/img/events/sports.jpg');
+	background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/css/img/events/sports.jpg');
 }
 
 #app-image-theater {
-	background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/css/img/events/theater.jpg');
+	background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/css/img/events/theater.jpg');
 }
 
 #app-image-arts {
-	background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/css/img/events/arts.jpg');
+	background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/css/img/events/arts.jpg');
 }
 
 #app-image-culture {
-	background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/css/img/events/culture.jpg');
+	background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/css/img/events/culture.jpg');
 }
 
 #app-image-music,

@@ -40,9 +40,9 @@
     <div class="container-fluid h-100">
       <div id="app-content" class="row">
         <!-- APP IMAGE SECTION -->
-        <div class="col-md-4 p-0">
-          <div id="app-title-background" class="h-100 d-flex justify-content-center align-items-center">
-            <h1 id="app-title" class="text-light">Events</h1>
+        <div class="col-md-4 p-0 d-none d-md-block">
+          <div id="app-title-background" class="h-100 d-flex align-items-center ml-3">
+            <h1 id="app-title" class="text-light">ALL EVENTS</h1>
           </div>
           <div id="app-image-all-events" class="h-100 d-none d-md-flex align-items-center"></div>
           <div id="app-image-music" class="h-100 d-none d-md-flex align-items-center"></div>
@@ -54,6 +54,7 @@
 
         <!-- APP INFO -->
         <div id="app-info" class="col-md-8 h-100 p-0 bg-primary">          
+          <!-- NAV BAR -->
           <ul id="app-nav" class="nav p-1 d-flex justify-content-around">
             <li class="nav-item"><a href="#" class="text-light"><i id="nav-all-events" class="fas fa-book-open"></i></a></li>
             <li class="nav-item"><a href="#" class="text-info"><i id="nav-music" class="fas fa-guitar"></i></a></li>
@@ -62,6 +63,7 @@
             <li class="nav-item"><a href="#" class="text-primary"><i id="nav-arts" class="fas fa-palette"></i></a></li>
             <li class="nav-item"><a href="#" class="text-success"><i id="nav-culture" class="fas fa-globe-americas"></i></a></li>
           </ul>
+          <!-- EVENT LIST -->
           <ul id="app-list" class="list-unstyled list-group">
             <li class="list-group-item d-flex align-items-center">
               <div class="event-img"></div>
