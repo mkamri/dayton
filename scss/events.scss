@@ -19,6 +19,11 @@ body {
 	height: 100%;
 }
 
+// EVENT TITLE HEADER
+#app-title {
+	transition: opacity .5s linear;
+}
+
 // Main Image
 #app-title-background {
 	z-index: 1;
@@ -80,7 +85,7 @@ body {
 	z-index: -1;
 }
 
-// Format the events navbar
+// Events navbar
 #app-nav {
 	background: $black;
 	font-size: 1.5rem;

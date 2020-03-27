@@ -8,6 +8,9 @@ body {
 #app-content {
   height: 100%; }
 
+#app-title {
+  transition: opacity .5s linear; }
+
 #app-title-background {
   z-index: 1; }
 

@@ -1,6 +1,7 @@
 // DECLARE VARIABLES
 const mainImage = document.getElementById('app-image');
 const nav = document.getElementById('app-nav');
+const mainTitle = document.getElementById('app-title');
 const allEvents = document.getElementById('nav-all-events');
 const music = document.getElementById('nav-music');
 const sports = document.getElementById('nav-sports');
@@ -22,8 +23,7 @@ nav.addEventListener('click', function(e) {
 	const artsImage = document.getElementById('app-image-arts');
 	const cultureImage = document.getElementById('app-image-culture');
 
-	console.log(e.target);
-
+	// If the target is an icon, change opacity of current section to '0'
 	if (e.target.className.includes('fas')) {
 		if (eventType == 'allEvents') {
 			allEventsImage.style.opacity = '0';
@@ -40,23 +40,49 @@ nav.addEventListener('click', function(e) {
 		}
 	}
 
+	// Create header animation
+	function fadeOut() {
+		mainTitle.style.opacity = 0;
+	}
+
+	function fadeIn() {
+		mainTitle.style.opacity = 1;
+	}
+
+	function changeText(newTitle) {
+		mainTitle.textContent = newTitle;
+	}
+
+	function headerAnimation(newTitle) {
+		fadeOut();
+		setTimeout(changeText, 500, newTitle);
+		setTimeout(fadeIn, 500);
+	}
+
+	// Change opacity of new section to '1', and change the h1 content
 	if (e.target == allEvents) {
 		allEventsImage.style.opacity = '1';
+		headerAnimation('ALL EVENTS');
 		eventType = 'allEvents';
 	} else if (e.target == music) {
 		musicImage.style.opacity = '1';
+		headerAnimation('MUSIC');
 		eventType = 'music';
 	} else if (e.target == sports) {
 		sportsImage.style.opacity = '1';
+		headerAnimation('SPORTS');
 		eventType = 'sports';
 	} else if (e.target == theater) {
 		theaterImage.style.opacity = '1';
+		headerAnimation('THEATER');
 		eventType = 'theater';
 	} else if (e.target == arts) {
 		artsImage.style.opacity = '1';
+		headerAnimation('ARTS');
 		eventType = 'arts';
 	} else if (e.target == culture) {
 		cultureImage.style.opacity = '1';
+		headerAnimation('CULTURE');
 		eventType = 'culture';
 	}
 });
