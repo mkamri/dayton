@@ -96,8 +96,24 @@ body {
 .event-img {
 	height: 150px;
 	width: 200px;
-	background-image: url('/css/img/events/music.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
+}
+
+// App List
+#app-list {
+	height: calc(100% - 44px);
+	overflow: scroll;
+	-ms-overflow-style: none; // Hides scrollbar while keeping functionality
+	background-color: $black;
+
+	li {
+		background-color: $black;
+	}
+}
+
+// Hides scrollbar while keeping functionality
+#app-list::-webkit-scrollbar {
+	display: none;
 }
