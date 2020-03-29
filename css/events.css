@@ -82,7 +82,7 @@ body {
   #app-list li {
     background-color: #030303;
     min-height: 180px;
-    height: 100%; }
+    height: 180px; }
 
 #app-list::-webkit-scrollbar {
   display: none; }

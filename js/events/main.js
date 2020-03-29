@@ -9,10 +9,15 @@ const theater = document.getElementById('nav-theater');
 const arts = document.getElementById('nav-arts');
 const culture = document.getElementById('nav-culture');
 
-// Init eventType
+// Init allEvents to start with
 let eventType = 'allEvents';
-
-// Change Main Image Function
+function initAllEvents() {
+	musicEvents.forEach(addEvent);
+	sportsEvents.forEach(addEvent);
+	theaterEvents.forEach(addEvent);
+	cultureEvents.forEach(addEvent);
+}
+initAllEvents();
 
 // Change event type
 nav.addEventListener('click', function(e) {
@@ -63,26 +68,41 @@ nav.addEventListener('click', function(e) {
 	if (e.target == allEvents) {
 		allEventsImage.style.opacity = '1';
 		headerAnimation('ALL EVENTS');
+		musicEvents.forEach(addEvent);
+		sportsEvents.forEach(addEvent);
+		theaterEvents.forEach(addEvent);
+		cultureEvents.forEach(addEvent);
+
 		eventType = 'allEvents';
 	} else if (e.target == music) {
 		musicImage.style.opacity = '1';
 		headerAnimation('MUSIC');
+		eventList.innerHTML = '';
+		musicEvents.forEach(addEvent);
 		eventType = 'music';
 	} else if (e.target == sports) {
 		sportsImage.style.opacity = '1';
 		headerAnimation('SPORTS');
+		eventList.innerHTML = '';
+		sportsEvents.forEach(addEvent);
 		eventType = 'sports';
 	} else if (e.target == theater) {
 		theaterImage.style.opacity = '1';
 		headerAnimation('THEATER');
+		eventList.innerHTML = '';
+		theaterEvents.forEach(addEvent);
 		eventType = 'theater';
 	} else if (e.target == arts) {
 		artsImage.style.opacity = '1';
 		headerAnimation('ARTS');
+		eventList.innerHTML = '';
+		artsEvents.forEach(addEvent);
 		eventType = 'arts';
 	} else if (e.target == culture) {
 		cultureImage.style.opacity = '1';
 		headerAnimation('CULTURE');
+		eventList.innerHTML = '';
+		cultureEvents.forEach(addEvent);
 		eventType = 'culture';
 	}
 });

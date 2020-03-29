@@ -1,4 +1,5 @@
 // Create Dummy Events
+
 const musicEvents = [
 	{
 		title: 'Boosie Badazz Live',
@@ -77,10 +78,10 @@ const theaterEvents = [
 
 const artsEvents = [
 	{
-		title: 'Summer Art Camp with the Masters Grades 3-5 Week 1',
-		date: 'Mon, Jun 22, 9:00 AM',
-		location: 'KSM Sports Indoor Facility',
-		image: 'css/img/events/event-img/art-camp.jpg'
+		title: '',
+		date: '',
+		location: '',
+		image: ''
 	}
 ];
 
@@ -93,12 +94,10 @@ const cultureEvents = [
 	}
 ];
 
-// Define Variables
+////////////// Define Variables //////////////
 const eventList = document.getElementById('app-list');
 
-// Create Events
-musicEvents.forEach(addEvent);
-
+////////////// Create Events //////////////
 function addEvent(event) {
 	let listItem = document.createElement('li');
 
@@ -112,7 +111,8 @@ function addEvent(event) {
 
 	// Insert inner HTML
 	listItem.className = `list-group-item d-flex align-items-center`;
-	listItem.innerHTML = `
+	if (event.title != '') {
+		listItem.innerHTML = `
 			<div class="event-img" style="background-image: url('${event.image}')"></div>
 			<div class="ml-3">
 				<span class="text-primary mr-3">${event.date}</span>
@@ -121,6 +121,13 @@ function addEvent(event) {
 				<h2 class="event-title h4 text-light">${event.title.slice(0, 35)}${elipses}</h2>
 				<a href="#" class="btn btn-danger btn-sm">Visit Site</a>
 			</div>
-  `;
+  	`;
+	} else {
+		listItem.innerHTML = `
+			<div class="ml-3">
+				<p class="event-title lead text-light">Sorry, there are no events in Dayton in this category. Please try another event type.</p>
+			</div>
+		`;
+	}
 	eventList.appendChild(listItem);
 }
