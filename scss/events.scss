@@ -126,6 +126,13 @@ body {
 		min-width: 100px;
 		min-height: 100px;
 	}
+
+	#app-list {
+		li {
+			min-height: 150px;
+			height: 150px;
+		}
+	}
 }
 
 // XS SCREENS
