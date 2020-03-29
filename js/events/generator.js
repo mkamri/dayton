@@ -49,20 +49,47 @@ const sportsEvents = [
 		title: '2020 Remember the Fallen Virtual 21K Run Walk',
 		date: 'Fri, May 15',
 		location: 'Dayton',
-		image: '/css/img/events/event-img/remember'
+		image: '/css/img/events/event-img/remember.jpg'
 	},
 	{
 		title: '2020 Anything is PAW-sible 5k Run Walk',
 		date: 'tbd',
 		location: 'Dayton',
-		image: '/css/img/events/event-img/pawsible'
+		image: '/css/img/events/event-img/pawsible.jpg'
 	},
 	{
 		title:
 			'Royal Boxing Promotions Presents RED CARPET FIGHT NIGHT. An action-packed night of professinoal boxing. Come SUPPORT, CHEER, and HAVE FUN.',
 		date: '',
 		location: '',
-		image: '/css/img/events/event-img/'
+		image: '/css/img/events/event-img/boxing.jpg'
+	}
+];
+
+const theaterEvents = [
+	{
+		title: "Laugh at Taft's with Mike Cannon",
+		date: 'Sat, April 25, 8:00 PM',
+		location: "Taft's Brewporium",
+		image: '/css/img/events/event-img/mike.jpg'
+	}
+];
+
+const artsEvents = [
+	{
+		title: 'Summer Art Camp with the Masters Grades 3-5 Week 1',
+		date: 'Mon, Jun 22, 9:00 AM',
+		location: 'KSM Sports Indoor Facility',
+		image: 'css/img/events/event-img/art-camp.jpg'
+	}
+];
+
+const cultureEvents = [
+	{
+		title: "Spring Fling at America's Packard Museum",
+		date: 'Fri, Apr 17, 6:30',
+		location: "America's Packard Museum",
+		image: 'css/img/events/event-img/packard.jpg'
 	}
 ];
 
