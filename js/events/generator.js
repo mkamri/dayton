@@ -54,7 +54,7 @@ function addEvent(event) {
 				<br>
 				<span class="text-danger d-inline-block">${event.location}</span>
 				<h2 class="h4 text-light">${event.title}</h2>
-				<a href="#" class="btn btn-danger btn-sm">Visit Event Site</a>
+				<a href="#" class="btn btn-danger btn-sm">Visit Site</a>
 			</div>
   `;
 	eventList.appendChild(listItem);
