@@ -94,8 +94,8 @@ body {
 
 // Size the images in the events section
 .event-img {
-	height: 150px;
-	width: 200px;
+	min-height: 150px;
+	min-width: 200px;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -110,6 +110,8 @@ body {
 
 	li {
 		background-color: $black;
+		min-height: 180px;
+		height: 100%;
 	}
 }
 

@@ -48,14 +48,14 @@ function addEvent(event) {
 	let listItem = document.createElement('li');
 	listItem.className = `list-group-item d-flex align-items-center`;
 	listItem.innerHTML = `
-    <div class="event-img" style="background-image: url('${event.image}')"></div>
-    <div class="ml-3">
-      <span class="text-primary mr-3">${event.date}</span>
-      <br>
-      <span class="text-danger d-inline-block">${event.location}</span>
-      <h2 class="h4 text-light">${event.title}</h2>
-      <a href="#" class="btn btn-danger btn-sm">Visit Event Site</a>
-    </div>
+			<div class="event-img" style="background-image: url('${event.image}')"></div>
+			<div class="ml-3">
+				<span class="text-primary mr-3">${event.date}</span>
+				<br>
+				<span class="text-danger d-inline-block">${event.location}</span>
+				<h2 class="h4 text-light">${event.title}</h2>
+				<a href="#" class="btn btn-danger btn-sm">Visit Event Site</a>
+			</div>
   `;
 	eventList.appendChild(listItem);
 }
