@@ -86,3 +86,12 @@ body {
 
 #app-list::-webkit-scrollbar {
   display: none; }
+
+@media screen and (max-width: 768px) {
+  .event-img {
+    min-width: 100px;
+    min-height: 100px; } }
+
+@media screen and (max-width: 475px) {
+  .event-title {
+    font-size: 1.2rem; } }
