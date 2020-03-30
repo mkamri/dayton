@@ -113,7 +113,7 @@ function addEvent(event) {
 	listItem.className = `list-group-item d-flex align-items-center`;
 	if (event.title != '') {
 		listItem.innerHTML = `
-			<div class="event-img" style="background-image: url('${event.image}')"></div>
+			<div class="event-img" style="background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('${event.image}')"></div>
 			<div class="ml-3">
 				<span class="text-primary mr-3">${event.date}</span>
 				<br>

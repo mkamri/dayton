@@ -68,6 +68,7 @@ nav.addEventListener('click', function(e) {
 	if (e.target == allEvents) {
 		allEventsImage.style.opacity = '1';
 		headerAnimation('ALL EVENTS');
+		eventList.innerHTML = '';
 		musicEvents.forEach(addEvent);
 		sportsEvents.forEach(addEvent);
 		theaterEvents.forEach(addEvent);
