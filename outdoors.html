@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dayton Event Finder</title>
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/outdoors.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato|Playfair+Display:400,700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/dce46299a0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top">
+    <div class="container d-flex align-items-center">
+      <a href="index.html" class="navbar-brand">
+        <span class="logo-icon"><i class="fas fa-plane text-light"></i></span>
+        <div class="d-inline-block">
+          <span class="d-block text-primary">DISCOVER</span>
+          <span class="d-block text-danger">DAYTON</span>
+        </div>
+      </a>
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#mainNav"><span class="navbar-toggler-icon"></span></button>
+      <div class="collapse navbar-collapse" id="mainNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item"><a href="museums.html" class="navbar-link ml-4">MUSEUMS</a></li>
+          <li class="nav-item"><a href="events.html" class="navbar-link ml-4">EVENTS</a></li>
+          <li class="nav-item"><a href="outdoors.html" class="navbar-link ml-4">OUTDOORS</a></li>
+          <li class="nav-item"><a href="food.html" class="navbar-link ml-4">FOOD</a></li>
+          <li class="nav-item"><a href="drinks.html" class="navbar-link ml-4">DRINKS</a></li>
+          <li class="nav-item"><a href="hotels.html" class="navbar-link ml-4">HOTELS</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section id="carousel">
+    <div id="mainCarousel" class="carousel slide h-100" data-interval="false">
+      <ol class="carousel-indicators">
+        <li class="active" data-target="#mainCarousel" data-slide-to="0"></li>
+        <li data-target="#mainCarousel" data-slide-to="1"></li>
+        <li data-target="#mainCarousel" data-slide-to="2"></li>
+        <li data-target="#mainCarousel" data-slide-to="3"></li>
+      </ol>
+      <div class="carousel-inner h-100">
+        <div class="carousel-item active riverscape-img h-100">
+          <div class="container-fluid h-100">
+            <div class="row h-100">
+              <div class="col-12 align-self-center text-center h-75 text-light d-flex flex-column justify-content-center pl-4">
+                <h1 class="display-4 mb-4">Riverscape Metropark</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item carillon-img">
+          <div class="container-fluid h-100">
+            <div class="row h-100">
+              <div class="col-12 align-self-center text-center h-75 text-light d-flex flex-column justify-content-center pl-4">
+                <h1 class="display-4 mb-4">Carillon Historical Park</h1>
+              </div>
+            </div>
+          </div>          
+        </div>
+        <div class="carousel-item smith-img">
+          <div class="container-fluid h-100">
+            <div class="row h-100">
+              <div class="col-12 align-self-center text-center h-75 text-light d-flex flex-column justify-content-center pl-4">
+                <h1 class="display-4 mb-4">Smith Gardens</h1>
+              </div>
+            </div>
+          </div>          
+        </div>
+        <div class="carousel-item sunwatch-img">
+          <div class="container-fluid h-100">
+            <div class="row h-100">
+              <div class="col-12 align-self-center text-center h-75 text-light d-flex flex-column justify-content-center pl-4">
+                <h1 class="display-4 mb-4">Sunwatch Indian Village</h1>
+              </div>
+            </div>
+          </div>          
+        </div>
+      </div>
+      <a href="#mainCarousel" class="carousel-control-prev m-0 d-flex align-items-center justify-content-center" data-slide="prev"><i class="fas fa-chevron-circle-left carousel-icon"></i></a>
+      <a href="#mainCarousel" class="carousel-control-next carousel-icon m-0 d-flex align-items-center justify-content-center" data-slide="next"><i class="fas fa-chevron-circle-right"></i></a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="page-footer text-light">
+    <div class="container text-center text-md-left">
+      <div class="row p-5 d-flex align-items-start">
+        <div class="col-md-4 mb-4 mb-md-0">
+          <span class="mb-2 d-block">IMAGES</span>
+          <ul style="list-style: none; padding: 0;">
+            <li class="small mb-1"><a  class="text-danger" href="https://unsplash.com/">Unsplash</a></li>
+            <li class="small mb-1"><a  class="text-danger" href="https://unsplash.com/">Creative Commons</a></li>
+          </ul>
+        </div>
+        <div class="col-md-8 pl-md-5">
+          <span class="mb-2 d-block">ABOUT THIS SITE</span>
+          <p class="small mb-4 mb-md-2">This website is a portfolio piece by Mika Marie. You can check out my other work <a class="text-danger" href="https://mikamarie.com" target="_blank">here</a>.</p>
+          <ul class="list-unstyled h3 d-flex social-buttons">
+            <li class="mr-3"><a class="text-danger" href="https://github.com/mkamri" data-toggle="tooltip" data-placement="bottom" title="Github" target="_blank"><i class="fab fa-github"></i></a></li>
+            <li class="mr-3"><a class="text-danger" href="https://twitter.com/mkamri_" data-toggle="tooltip" data-placement="bottom" title="Twitter" target="_blank"><i class="fab fa-twitter"></i></a></li>
+            <li class="mr-3"><a class="text-danger" href="https://mikamarie.com" data-toggle="tooltip" data-placement="bottom" title="Portfolio" target="_blank"><i class="fas fa-portrait"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+  <script>
+    $(function () {
+      $('[data-toggle="tooltip"]').tooltip()
+    })
+
+    jQuery(window).load(function() {
+      $('.carousel').carousel('pause');
+    });
+  </script>
+</body>
+</html>
