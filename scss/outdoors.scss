@@ -53,3 +53,41 @@ $dark-transparent: #000000c0;
 #social {
 	font-size: 2rem;
 }
+
+.features {
+	height: 32rem;
+
+	img {
+		height: 14rem;
+	}
+}
+
+@media screen and (max-width: 1200px) {
+	.features {
+		height: 32.5rem;
+
+		img {
+			height: 11rem;
+		}
+	}
+}
+
+@media screen and (max-width: 990px) {
+	.features {
+		height: 37rem;
+
+		img {
+			height: 9.5rem;
+		}
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.features {
+		height: auto;
+
+		img {
+			height: auto;
+		}
+	}
+}
