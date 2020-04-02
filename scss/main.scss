@@ -28,10 +28,8 @@ $black: #030303;
 			text-decoration: none;
 			padding-bottom: .3rem;
 			border-bottom: 4px solid #00000000;
-			transition: .3s ease-in;
 			&:hover {
 				text-decoration: none;
-				border-bottom: 4px solid $primary;
 			}
 		}
 	}

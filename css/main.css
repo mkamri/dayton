@@ -11,11 +11,9 @@
   .navbar li a {
     text-decoration: none;
     padding-bottom: .3rem;
-    border-bottom: 4px solid #00000000;
-    transition: .3s ease-in; }
+    border-bottom: 4px solid #00000000; }
     .navbar li a:hover {
-      text-decoration: none;
-      border-bottom: 4px solid #9bddff; }
+      text-decoration: none; }
 
 footer {
   background: #030303; }

@@ -12,6 +12,7 @@
 </head>
 <body>
     <!-- NAVBAR -->
+  <!-- NAVBAR -->
   <nav class="navbar navbar-expand-md navbar-dark fixed-top">
     <div class="container d-flex align-items-center">
       <a href="index.html" class="navbar-brand">
@@ -24,16 +25,27 @@
       <button class="navbar-toggler" data-toggle="collapse" data-target="#mainNav"><span class="navbar-toggler-icon"></span></button>
       <div class="collapse navbar-collapse" id="mainNav">
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item"><a href="museums.html" class="navbar-link ml-4">MUSEUMS</a></li>
-          <li class="nav-item"><a href="events.html" class="navbar-link ml-4">EVENTS</a></li>
-          <li class="nav-item"><a href="outdoors.html" class="navbar-link ml-4">OUTDOORS</a></li>
-          <li class="nav-item"><a href="food.html" class="navbar-link ml-4">FOOD</a></li>
-          <li class="nav-item"><a href="drinks.html" class="navbar-link ml-4">DRINKS</a></li>
-          <li class="nav-item"><a href="hotels.html" class="navbar-link ml-4">HOTELS</a></li>
+          <li class="nav-item"><a href="museums.html" class="nav-link ml-4">MUSEUMS</a></li>
+          <li class="nav-item"><a href="events.html" class="nav-link ml-4">EVENTS</a></li>
+          <li class="nav-item dropdown">
+            <a href="#" class="nav-link dropdown-toggle ml-4" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              OUTDOORS
+            </a>
+            <div class="dropdown-menu" aria-labeledby="navbarDropdown">
+              <a href="/outdoors/riverscape.html" class="dropdown-item">Riverscape Metropark</a>
+              <a href="/outdoors/carillon.html" class="dropdown-item">Carillon Historical Park</a>
+              <a href="/outdoors/smith.html" class="dropdown-item">Smith Gardens</a>
+              <a href="/outdoors/sunwatch.html" class="dropdown-item">Sunwatch Indian Village</a>
+            </div>
+          </li>
+          <li class="nav-item"><a href="food.html" class="nav-link ml-4">FOOD</a></li>
+          <li class="nav-item"><a href="drinks.html" class="nav-link ml-4">DRINKS</a></li>
+          <li class="nav-item"><a href="hotels.html" class="nav-link ml-4">HOTELS</a></li>
         </ul>
       </div>
     </div>
   </nav>
+  
   <section id="museums">
     <!-- MODAL -->
     <div id="js-background" class="text-light d-flex">
