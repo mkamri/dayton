@@ -14,43 +14,41 @@
 <body>
 
   <!-- NAVBAR -->
-  <nav class="navbar navbar-expand-md navbar-dark fixed-top">
+  <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
     <div class="container d-flex align-items-center">
       <a href="index.html" class="navbar-brand">
-        <span class="logo-icon"><i class="fas fa-plane text-light"></i></span>
+        <span class="logo-icon"><i class="fas fa-plane text-dark"></i></span>
         <div class="d-inline-block">
-          <span class="d-block text-primary">DISCOVER</span>
+          <span class="d-block text-danger">DISCOVER</span>
           <span class="d-block text-danger">DAYTON</span>
         </div>
       </a>
       <button class="navbar-toggler" data-toggle="collapse" data-target="#mainNav"><span class="navbar-toggler-icon"></span></button>
       <div class="collapse navbar-collapse" id="mainNav">
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item"><a href="museums.html" class="nav-link ml-4">MUSEUMS</a></li>
-          <li class="nav-item"><a href="events.html" class="nav-link ml-4">EVENTS</a></li>
           <li class="nav-item dropdown">
-            <a href="#" class="nav-link dropdown-toggle ml-4" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              OUTDOORS
+            <a href="#" class="nav-link dropdown-toggle ml-4" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">EXPLORE
             </a>
             <div class="dropdown-menu" aria-labeledby="navbarDropdown">
-              <a href="/outdoors/riverscape.html" class="dropdown-item">Riverscape Metropark</a>
-              <a href="/outdoors/carillon.html" class="dropdown-item">Carillon Historical Park</a>
-              <a href="/outdoors/smith.html" class="dropdown-item">Smith Gardens</a>
-              <a href="/outdoors/sunwatch.html" class="dropdown-item">Sunwatch Indian Village</a>
+              <a href="#" class="dropdown-item small">MUSEUMS</a>
+              <a href="#" class="dropdown-item small">OUTDOORS</a>
+              <a href="#" class="dropdown-item small">EVENTS</a>
             </div>
           </li>
-          <li class="nav-item"><a href="food.html" class="nav-link ml-4">FOOD</a></li>
-          <li class="nav-item"><a href="drinks.html" class="nav-link ml-4">DRINKS</a></li>
-          <li class="nav-item"><a href="hotels.html" class="nav-link ml-4">HOTELS</a></li>
+          <li class="nav-item"><a href="#" class="nav-link ml-4">HISTORY</a></li>
+          <li class="nav-item"><a href="#" class="nav-link ml-4">FOOD</a></li>
+          <li class="nav-item"><a href="#" class="nav-link ml-4">NIGHTLIFE</a></li>
+          <li class="nav-item"><a href="#" class="nav-link ml-4">HOTELS</a></li>
         </ul>
       </div>
     </div>
   </nav>
 
-  <!-- CAROUSEL -->
-
-  <section id="hero">
-    <div id="heroCarousel" class="carousel slide" data-ride="carousel">
+  <!-- HERO -->
+  <div id="hero" class="container">
+    <div class="row h-100">
+      <div class="col-md-8 h-100">
+        <div id="heroCarousel" class="carousel slide h-75" data-ride="carousel">
       <ol class="carousel-indicators">
         <li class="active" data-target="#heroCarousel" data-slide-to="0"></li>
         <li data-target="#heroCarousel" data-slide-to="1"></li>
@@ -64,7 +62,6 @@
             <div class="row h-100">
               <div class="col-12 align-self-center h-75 text-light d-flex flex-column justify-content-center pl-4">
                 <h1 class="display-4 mb-4">Discover Historical Dayton</h1>
-                <p class="lead hero-p w-75 d-none d-md-block mb-4">Walk the streets of Dayton, Ohio and discover a hotspot for innovation, culture, and the arts.</p>
                 <span><a href="#" class="btn btn-sm btn-danger">Read More <i class="fas fa-arrow-right"></i></a></span>
               </div>
             </div>
@@ -75,7 +72,6 @@
             <div class="row h-100">
               <div class="col-12 align-self-center h-75 text-light d-flex flex-column justify-content-center pl-4">
                 <h1 class="display-4 mb-4">Museums and More</h1>
-                <p class="lead hero-p w-75 d-none d-md-block mb-4">Dayton is home to many one-of-a-kind museums, including the expansive <strong>National Museum of the US Air Force</strong> and more.</p>
                 <span><a href="#" class="btn btn-sm btn-danger">Visit Today <i class="fas fa-arrow-right"></i></a></span>
               </div>
             </div>
@@ -86,7 +82,6 @@
             <div class="row h-100">
               <div class="col-12 align-self-center h-75 text-light d-flex flex-column justify-content-center pl-4">
                 <h1 class="display-4 mb-4">Enjoy Local Farm-To-Table Cuisine</h1>
-                <p class="lead hero-p w-75 d-none d-md-block mb-4">With over one hundred locally-owned restaurants, you're sure to find something for everyone in the family.</p>
                 <span><a href="#" class="btn btn-sm btn-danger">Find a Restaurant <i class="fas fa-arrow-right"></i></a></span>
               </div>
             </div>
@@ -97,7 +92,6 @@
             <div class="row h-100">
               <div class="col-12 align-self-center h-75 text-light d-flex flex-column justify-content-center pl-4">
                 <h1 class="display-4 mb-4">Events for Every Season</h1>
-                <p class="lead hero-p w-75 d-none d-md-block mb-4">From culture festivals and food truck faires, to Wright State Basketball and the Dayton Dragons baseball team, there's always something to do in Dayton!</p>
                 <span><a href="#" class="btn btn-sm btn-danger">What's Happening <i class="fas fa-arrow-right"></i></a></span>
               </div>
             </div>
@@ -108,54 +102,18 @@
             <div class="row h-100">
               <div class="col-12 align-self-center h-75 text-light d-flex flex-column justify-content-center pl-4">
                 <h1 class="display-4 mb-4">Award-Winning Brews</h1>
-                <p class="lead hero-p w-75 d-none d-md-block mb-4">Dayton is known for its 20+ breweries and distilleries, including Dayton Beer Co., Warped Wing Brewery, and Branch and Bone.</p>
                 <span><a href="#" class="btn btn-sm btn-danger">Read More <i class="fas fa-arrow-right"></i></a></span>
               </div>
             </div>
           </div>         
         </div>
       </div>
-      <a href="#heroCarousel" class="carousel-control-prev" data-slide="prev"><i class="fas fa-chevron-circle-left carousel-icon"></i></a>
-      <a href="#heroCarousel" class="carousel-control-next carousel-icon" data-slide="next"><i class="fas fa-chevron-circle-right"></i></a>
     </div>
-  </section>
+    <div class="bg-danger h-25">
+      Hello
+    </div>
+  </div>
 
-  <!-- HISTORY -->
-  <section id="history">
-      <div class="container py-5 h-100">
-        <div class="row h-50">
-          <div class="col-md-8 col-xl-6 h-100">
-            <div class="card h-100 bg-light">
-              <div class="card-body d-flex flex-column justify-content-center">
-                <card-title><h2>HISTORY</h2></card-title>
-                  <p class="lead card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex quidem ab repudiandae exercitationem magnam incidunt corporis sunt qui quibusdam praesentium voluptas quo iste nostrum, numquam molestias, dignissimos repellendus odio, fugiat cumque? Sint libero laudantium animi facere odit consequatur eveniet reiciendis?</p>
-                  <span><a href="#" class="btn btn-block btn-danger">Visit Carillon Historical Park  <i class="fas fa-arrow-right"></i></a></span>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 col-xl-6">
-            <div class="card history-img">
-            </div>
-          </div>
-        </div>
-
-        <div class="row h-50 pt-5">
-          <div class="col-md-4 col-xl-6">
-            <div class="card innovation-img">
-            </div>
-          </div>
-          <div class="col-md-8 col-xl-6">
-            <div class="card h-100 bg-light">
-              <div class="card-body d-flex flex-column justify-content-center">
-                <card-title><h2>INNOVATION</h2></card-title>
-                  <p class="lead card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex quidem ab repudiandae exercitationem magnam incidunt corporis sunt qui quibusdam praesentium voluptas quo iste nostrum, numquam molestias, dignissimos repellendus odio, fugiat cumque? Sint libero laudantium animi facere odit consequatur eveniet reiciendis?</p>
-                  <span><a href="#" class="btn btn-block btn-danger">Visit the Wright Family Home <i class="fas fa-arrow-right"></i></a></span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-  </section>
   <footer class="page-footer text-light">
     <div class="container text-center text-md-left">
       <div class="row p-5 d-flex align-items-start">

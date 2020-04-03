@@ -1,19 +1,25 @@
 * a:hover {
   text-decoration: none; }
 
-.navbar {
-  background: #000000c0; }
-  .navbar .navbar-brand {
-    font-size: 1rem;
-    line-height: 1rem; }
-  .navbar .logo-icon {
-    font-size: 2rem; }
-  .navbar li a {
-    text-decoration: none;
-    padding-bottom: .3rem;
-    border-bottom: 4px solid #00000000; }
-    .navbar li a:hover {
-      text-decoration: none; }
+body {
+  background: #f5f5f5; }
+
+.container {
+  max-width: 90%; }
+
+.navbar .navbar-brand {
+  font-size: 1rem;
+  line-height: 1rem; }
+
+.navbar .logo-icon {
+  font-size: 2rem; }
+
+.navbar li a {
+  text-decoration: none;
+  padding-bottom: .3rem;
+  border-bottom: 4px solid #00000000; }
+  .navbar li a:hover {
+    text-decoration: none; }
 
 footer {
   background: #030303; }
@@ -25,6 +31,10 @@ footer {
     margin-bottom: .6rem; } }
 
 @media screen and (max-width: 768px) {
+  .container {
+    margin: 0;
+    padding: 0;
+    max-width: 100%; }
   .navbar ul {
     text-align: right; }
   .navbar a {
