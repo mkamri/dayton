@@ -6,13 +6,11 @@ $dark-transparent: #000000c0;
 //* HERO *//
 
 #hero {
-	height: 90vh;
+	height: 110vh;
 	margin-top: 4.5rem;
 }
 
 #heroCarousel {
-	height: 100%;
-
 	.carousel-inner {
 		height: 100%;
 	}
@@ -50,9 +48,17 @@ $dark-transparent: #000000c0;
 	background: $dark-transparent;
 }
 
-.carousel-icon {
-	font-size: 2rem;
-	color: $light;
+#hero-plane {
+	background-image: url("/css/img/home/plane/plane.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 100%;
+	width: 100%;
+
+	h2 {
+		font-size: 2.5rem;
+	}
 }
 
 //* XS-MD SCREENS *//
