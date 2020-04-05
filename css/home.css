@@ -41,6 +41,12 @@
   #hero-plane h2 {
     font-size: 2.5rem; }
 
+#places-to-go {
+  height: 10rem; }
+  #places-to-go .place-to-go {
+    height: 7rem;
+    width: 10rem; }
+
 @media screen and (max-width: 768px) {
   .carousel-item h1,
   .carousel-item .btn,

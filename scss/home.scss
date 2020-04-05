@@ -61,6 +61,17 @@ $dark-transparent: #000000c0;
 	}
 }
 
+//* PLACES TO GO *//
+
+#places-to-go {
+	height: 10rem;
+
+	.place-to-go {
+		height: 7rem;
+		width: 10rem;
+	}
+}
+
 //* XS-MD SCREENS *//
 @media screen and (max-width: 768px) {
 	.carousel-item {
