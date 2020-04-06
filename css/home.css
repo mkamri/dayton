@@ -41,11 +41,60 @@
   #hero-plane h2 {
     font-size: 2.5rem; }
 
-#places-to-go {
-  height: 10rem; }
-  #places-to-go .place-to-go {
-    height: 7rem;
-    width: 10rem; }
+#places-to-go .col-md-2 {
+  padding: 1rem .3rem 1rem 0; }
+  #places-to-go .col-md-2:last-child {
+    padding: 1rem 0 1rem 0; }
+
+#places-to-go .place-to-go {
+  height: 8rem;
+  width: 10rem; }
+  #places-to-go .place-to-go:hover {
+    cursor: pointer; }
+  #places-to-go .place-to-go .fas {
+    font-size: 2rem; }
+
+#place-dai,
+#place-airforce,
+#place-boonshoft,
+#place-riverscape,
+#place-carillon,
+#place-sunwatch {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%; }
+
+#place-dai {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/home/places-to-go/dai.jpg"); }
+  #place-dai:hover {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("img/home/places-to-go/dai.jpg"); }
+
+#place-airforce {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/home/places-to-go/airforce.jpg"); }
+  #place-airforce:hover {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("img/home/places-to-go/airforce.jpg"); }
+
+#place-boonshoft {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/home/places-to-go/boonshoft.jpg"); }
+  #place-boonshoft:hover {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("img/home/places-to-go/boonshoft.jpg"); }
+
+#place-riverscape {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/home/places-to-go/riverscape.jpg"); }
+  #place-riverscape:hover {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("img/home/places-to-go/riverscape.jpg"); }
+
+#place-carillon {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/home/places-to-go/carillon.jpg"); }
+  #place-carillon:hover {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("img/home/places-to-go/carillon.jpg"); }
+
+#place-sunwatch {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/home/places-to-go/sunwatch.jpg"); }
+  #place-sunwatch:hover {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("img/home/places-to-go/sunwatch.jpg"); }
 
 @media screen and (max-width: 768px) {
   .carousel-item h1,
@@ -53,7 +102,20 @@
   .carousel-item .hero-p {
     margin: 0 2rem; }
   .carousel-item h1 {
-    font-size: 2rem; } }
+    font-size: 2rem; }
+  #places-to-go .col-md-2 {
+    padding: 1rem .3rem 1rem 0; }
+    #places-to-go .col-md-2:nth-child(1), #places-to-go .col-md-2:nth-child(2), #places-to-go .col-md-2:nth-child(3) {
+      padding-bottom: .3rem; }
+    #places-to-go .col-md-2:nth-child(4), #places-to-go .col-md-2:nth-child(5), #places-to-go .col-md-2:nth-child(6) {
+      padding-top: .3rem; }
+    #places-to-go .col-md-2:nth-child(3) {
+      padding-right: 0; }
+    #places-to-go .col-md-2:last-child {
+      padding: .3rem 0 1rem 0; }
+  #places-to-go .place-to-go {
+    height: 8rem;
+    width: 14rem; } }
 
 @media screen and (max-width: 575px) {
   #hero {
@@ -64,4 +126,18 @@
       background-position: center;
       width: 100%;
       height: 100%;
-      padding: 0 1rem 0 1rem; } }
+      padding: 0 1rem 0 1rem; }
+  #places-to-go .col-md-2:first-child {
+    padding: 1rem .3rem .3rem 0; }
+  #places-to-go .col-md-2:nth-child(2) {
+    padding: 1rem 0 .3rem 0; }
+  #places-to-go .col-md-2:nth-child(3) {
+    padding: 0 .3rem .3rem 0; }
+  #places-to-go .col-md-2:nth-child(4) {
+    padding: 0 0 .3rem 0; }
+  #places-to-go .col-md-2:nth-child(5) {
+    padding: 0 .3rem 1rem 0; }
+  #places-to-go .col-md-2:last-child {
+    padding: 0 0 1rem 0; }
+  #places-to-go .place-to-go {
+    width: 17rem; } }

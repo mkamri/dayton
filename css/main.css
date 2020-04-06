@@ -7,6 +7,11 @@ body {
 .container {
   max-width: 90%; }
 
+.tiny-text {
+  font-size: .6rem;
+  letter-spacing: 2px;
+  text-transform: uppercase; }
+
 .navbar .navbar-brand {
   font-size: 1rem;
   line-height: 1rem; }
