@@ -1,7 +1,8 @@
 #museums {
   overflow: hidden;
-  height: 100vh;
-  background: #030303; }
+  height: 20rem;
+  margin-bottom: 1rem;
+  background: #0c0c0c; }
   #museums #js-background {
     position: absolute;
     width: 100%;
@@ -27,7 +28,7 @@
       padding-left: 3rem; }
   #museums .description {
     z-index: 999;
-    background: #030303; }
+    background: #0c0c0c; }
   #museums .museum-block h2:hover {
     cursor: pointer; }
   #museums .dai {

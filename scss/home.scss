@@ -148,12 +148,56 @@ $dark-transparent: #000000c0;
 	}
 }
 
+//* MUSEUMS *//
+#museums {
+	margin-bottom: 1rem;
+}
+
+.card {
+	height: 18rem;
+
+	.card-img-top {
+		object-fit: cover;
+		position: relative;
+		height: 200px;
+		width: 100%;
+		vertical-align: top;
+	}
+
+	.card-img-top:after {
+		content: '';
+		display: block;
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		background-color: red;
+	}
+
+	.card-img-top:hover:after {
+		content: '';
+		background-color: rgba(0, 0, 0, 0.5);
+	}
+
+	&:hover {
+		cursor: pointer;
+
+		h3 {
+			color: $red;
+		}
+	}
+}
+
 //* XS-MD SCREENS *//
 @media screen and (max-width: 768px) {
 	.carousel-item {
 		h1,
 		.btn,
-		.hero-p {
+		.hero-p,
+		.tiny-text {
 			margin: 0 2rem;
 		}
 
