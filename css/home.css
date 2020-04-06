@@ -48,7 +48,7 @@
 
 #places-to-go .place-to-go {
   height: 8rem;
-  width: 10rem; }
+  width: 15rem; }
   #places-to-go .place-to-go:hover {
     cursor: pointer; }
   #places-to-go .place-to-go .fas {
