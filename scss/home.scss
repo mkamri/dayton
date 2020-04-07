@@ -3,6 +3,11 @@ $red: #880303;
 $light: #f5f5f5;
 $dark-transparent: #000000c0;
 
+//* ALL *//
+body {
+	overflow-x: hidden;
+}
+
 //* HERO *//
 
 #hero {
@@ -162,24 +167,14 @@ $dark-transparent: #000000c0;
 		height: 200px;
 		width: 100%;
 		vertical-align: top;
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+		transition: .3s linear all;
 	}
 
-	.card-img-top:after {
-		content: '';
-		display: block;
-		position: absolute;
-		width: 100%;
-		height: 100%;
-		top: 0;
-		left: 0;
-		right: 0;
-		bottom: 0;
-		background-color: red;
-	}
-
-	.card-img-top:hover:after {
-		content: '';
-		background-color: rgba(0, 0, 0, 0.5);
+	.card-image-container {
+		overflow: hidden;
 	}
 
 	&:hover {
@@ -187,6 +182,69 @@ $dark-transparent: #000000c0;
 
 		h3 {
 			color: $red;
+		}
+	}
+}
+
+.airforce-museum-card {
+	.airforce-museum-img {
+		background-image: url("img/home/places-to-go/airforce.jpg");
+	}
+
+	&:hover .airforce-museum-img {
+		background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+			url("img/home/places-to-go/airforce.jpg");
+		transform: scale(1.1);
+	}
+}
+
+.dai-museum-card {
+	.dai-museum-img {
+		background-image: url("img/home/places-to-go/dai.jpg");
+	}
+
+	&:hover .dai-museum-img {
+		background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+			url("img/home/places-to-go/dai.jpg");
+		transform: scale(1.1);
+	}
+}
+
+.boonshoft-museum-card {
+	.boonshoft-museum-img {
+		background-image: url("img/home/places-to-go/boonshoft.jpg");
+	}
+
+	&:hover .boonshoft-museum-img {
+		background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+			url("img/home/places-to-go/boonshoft.jpg");
+		transform: scale(1.1);
+	}
+}
+
+//* SKYLINE IMAGE *//
+#skyline-image {
+	height: 16rem;
+	width: 100%;
+	background-image: linear-gradient(0deg, rgba(80, 1, 1, 0.5), rgba(66, 1, 1, 0.5)),
+		url("/css/img/home/skyline/brick.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	transition: .3s linear all;
+}
+
+//* EVENTS *//
+#events {
+	.event {
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+		transition: all .3s linear;
+
+		&:hover {
+			cursor: pointer;
+			background-blend-mode: luminosity;
 		}
 	}
 }

@@ -107,3 +107,41 @@ nav.addEventListener('click', function(e) {
 		eventType = 'culture';
 	}
 });
+
+////////////// Define Variables //////////////
+const eventList = document.getElementById('app-list');
+
+////////////// Create Events //////////////
+function addEvent(event) {
+	let listItem = document.createElement('li');
+
+	// Determine if the title will get cut short and need elipses
+	let elipses;
+	if (event.title.length > 35) {
+		elipses = '...';
+	} else {
+		elipses = '';
+	}
+
+	// Insert inner HTML
+	listItem.className = `list-group-item d-flex align-items-center`;
+	if (event.title != '') {
+		listItem.innerHTML = `
+			<div class="event-img" style="background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('${event.image}')"></div>
+			<div class="ml-3">
+				<span class="text-primary mr-3">${event.date}</span>
+				<br>
+				<span class="text-danger d-none d-sm-inline-block">${event.location}</span>
+				<h2 class="event-title h4 text-light">${event.title.slice(0, 35)}${elipses}</h2>
+				<a href="#" class="btn btn-danger btn-sm">Visit Site</a>
+			</div>
+  	`;
+	} else {
+		listItem.innerHTML = `
+			<div class="ml-3">
+				<p class="event-title lead text-light">Sorry, there are no events in Dayton in this category. Please try another event type.</p>
+			</div>
+		`;
+	}
+	eventList.appendChild(listItem);
+}

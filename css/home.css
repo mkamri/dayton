@@ -1,3 +1,6 @@
+body {
+  overflow-x: hidden; }
+
 #hero {
   height: 110vh;
   margin-top: 4.5rem; }
@@ -106,25 +109,56 @@
     position: relative;
     height: 200px;
     width: 100%;
-    vertical-align: top; }
-  .card .card-img-top:after {
-    content: '';
-    display: block;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: red; }
-  .card .card-img-top:hover:after {
-    content: '';
-    background-color: rgba(0, 0, 0, 0.5); }
+    vertical-align: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    transition: .3s linear all; }
+  .card .card-image-container {
+    overflow: hidden; }
   .card:hover {
     cursor: pointer; }
     .card:hover h3 {
       color: #880303; }
+
+.airforce-museum-card .airforce-museum-img {
+  background-image: url("img/home/places-to-go/airforce.jpg"); }
+
+.airforce-museum-card:hover .airforce-museum-img {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/home/places-to-go/airforce.jpg");
+  transform: scale(1.1); }
+
+.dai-museum-card .dai-museum-img {
+  background-image: url("img/home/places-to-go/dai.jpg"); }
+
+.dai-museum-card:hover .dai-museum-img {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/home/places-to-go/dai.jpg");
+  transform: scale(1.1); }
+
+.boonshoft-museum-card .boonshoft-museum-img {
+  background-image: url("img/home/places-to-go/boonshoft.jpg"); }
+
+.boonshoft-museum-card:hover .boonshoft-museum-img {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/home/places-to-go/boonshoft.jpg");
+  transform: scale(1.1); }
+
+#skyline-image {
+  height: 16rem;
+  width: 100%;
+  background-image: linear-gradient(0deg, rgba(80, 1, 1, 0.5), rgba(66, 1, 1, 0.5)), url("/css/img/home/skyline/brick.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  transition: .3s linear all; }
+
+#events .event {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  transition: all .3s linear; }
+  #events .event:hover {
+    cursor: pointer;
+    background-blend-mode: luminosity; }
 
 @media screen and (max-width: 768px) {
   .carousel-item h1,
